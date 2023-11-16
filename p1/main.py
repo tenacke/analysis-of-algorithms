@@ -57,5 +57,11 @@ if __name__ == "__main__":
 
     for input_size in input_sizes:
         for case in cases:
+            if case == AVERAGE_CASE:
+                elapsed_times = []
+                for i in range(0, 10):
+                    elapsed_times.append(call(input_size, case))
+                print(f"Input size: {input_size}, Case: {case}, Elapsed Time: {sum(elapsed_times)/len(elapsed_times)}")
+                continue
             print(f"Input size: {input_size}, Case: {case}, Elapsed Time: {call(input_size)}")
 
