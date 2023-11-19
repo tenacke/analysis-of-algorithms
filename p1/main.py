@@ -6,6 +6,9 @@ BEST_CASE = 0
 WORST_CASE = 1
 AVERAGE_CASE = 2
 
+BESTS = {}
+WORSTS = {}
+
 def function(arr: list) -> int:
     y = 0
     n = len(arr)
@@ -48,12 +51,12 @@ def get_input(n: int, case: int):
     if case == AVERAGE_CASE:
         return [randint(0, 2) for i in range(n)]
     elif case == BEST_CASE:
-        return [get_input_by_index(n, i, case) for i in range(n)]
+        return BESTS[n]
     elif case == WORST_CASE:
-        return [get_input_by_index(n, i, case) for i in range(n)]
+        return WORSTS[n]
 
 
-def get_input_by_index(n: int, i: int, case: int) -> int:
+def set_input_by_index(n: int, i: int) -> int:
     case0 = 0
     case1 = 0
     case2 = 0
@@ -76,17 +79,22 @@ def get_input_by_index(n: int, i: int, case: int) -> int:
             case2 = case2 + 1                       
         p = p + 1  
     
-    if case == BEST_CASE:
-        signif = min(case0, case1, case2)
-    elif case == WORST_CASE:
-        signif = max(case0, case1, case2)
+    best = min(case0, case1, case2)
+    worst = max(case0, case1, case2)
     
-    if signif == case0:
-        return 0
-    elif signif == case1:
-        return 1
-    elif signif == case2:
-        return 2
+    if best == case0:
+        BESTS[n].append(0)
+    elif best == case1:
+        BESTS[n].append(1)
+    elif best == case2:
+        BESTS[n].append(2)
+    
+    if worst == case0:
+        WORSTS[n].append(0)
+    elif worst == case1:
+        WORSTS[n].append(1)
+    elif worst == case2:
+        WORSTS[n].append(2)
         
 def get_case(case: int) -> str:
     if case == BEST_CASE:
@@ -102,13 +110,19 @@ if __name__ == "__main__":
     input_sizes = [1, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]
     cases = [BEST_CASE, WORST_CASE, AVERAGE_CASE]
 
+    for n in input_sizes:
+        BESTS[n] = []
+        WORSTS[n] = []
+        for i in range(0, n):
+            set_input_by_index(n, i)
+
     for input_size in input_sizes:
         for case in cases:
             if case == AVERAGE_CASE:
                 elapsed_times = []
                 for i in range(0, 10):
                     elapsed_times.append(call(input_size, case))
-                print(f"Input size: {input_size}, Case: {get_case(case)}, Elapsed Time: {sum(elapsed_times)/len(elapsed_times):.5f}")
+                print(f"Input size: {input_size}, Case: {get_case(case)}, Elapsed Time: {sum(elapsed_times)/len(elapsed_times):.7f}")
                 continue
-            print(f"Input size: {input_size}, Case: {get_case(case)}, Elapsed Time: {call(input_size, case):.5f}")
+            print(f"Input size: {input_size}, Case: {get_case(case)}, Elapsed Time: {call(input_size, case):.7f}")
 
