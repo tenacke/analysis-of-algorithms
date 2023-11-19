@@ -1,9 +1,9 @@
-Input size: 1, Case: Best Case, Elapsed Time: 0.00000
-Input size: 1, Case: Worst Case, Elapsed Time: 0.00000
-Input size: 1, Case: Average Case, Elapsed Time: 0.00000
-Input size: 5, Case: Best Case, Elapsed Time: 0.00000
-Input size: 5, Case: Worst Case, Elapsed Time: 0.00003
-Input size: 5, Case: Average Case, Elapsed Time: 0.00002
+Input size: 1, Case: Best Case, Elapsed Time: 0.0000021
+Input size: 1, Case: Worst Case, Elapsed Time: 0.0000010
+Input size: 1, Case: Average Case, Elapsed Time: 0.0000010
+Input size: 5, Case: Best Case, Elapsed Time: 0.0000031
+Input size: 5, Case: Worst Case, Elapsed Time: 0.0000327
+Input size: 5, Case: Average Case, Elapsed Time: 0.0000155
 Input size: 10, Case: Best Case, Elapsed Time: 0.00001
 Input size: 10, Case: Worst Case, Elapsed Time: 0.00041
 Input size: 10, Case: Average Case, Elapsed Time: 0.00017
