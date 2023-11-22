@@ -98,13 +98,11 @@ def set_input_by_index(n: int, i: int) -> int:
         
 def get_case(case: int) -> str:
     if case == BEST_CASE:
-        return "Best Case"
+        return "best"
     elif case == WORST_CASE:
-        return "Worst Case"
+        return "worst"
     elif case == AVERAGE_CASE:
-        return "Average Case"
-    else:
-        return "Unknown Case"
+        return "average"
 
 if __name__ == "__main__":
     input_sizes = [1, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]
@@ -121,8 +119,10 @@ if __name__ == "__main__":
             if case == AVERAGE_CASE:
                 elapsed_times = []
                 for i in range(0, 10):
-                    elapsed_times.append(call(input_size, case))
-                print(f"Input size: {input_size}, Case: {get_case(case)}, Elapsed Time: {sum(elapsed_times)/len(elapsed_times):.7f}")
+                    elapsed_time = call(input_size, case)
+                    elapsed_times.append(elapsed_time)
+                    print(f"Case: {get_case(case)} Size: {input_size} Elapsed Time (s): {elapsed_time:.7f}")
+                print(f"Case: {get_case(case)} Size: {input_size} Elapsed Time (s): {sum(elapsed_times)/len(elapsed_times):.7f}")
                 continue
-            print(f"Input size: {input_size}, Case: {get_case(case)}, Elapsed Time: {call(input_size, case):.7f}")
+            print(f"Case: {get_case(case)} Size: {input_size} Elapsed Time (s): {call(input_size, case):.7f}")
 
