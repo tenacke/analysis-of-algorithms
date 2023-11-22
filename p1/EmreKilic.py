@@ -55,8 +55,33 @@ def get_input(n: int, case: int):
     elif case == WORST_CASE:
         return WORSTS[n]
 
-
 def set_input_by_index(n: int, i: int) -> int:
+    case0 = 0
+    case1 = 0
+    case2 = 0
+
+    case0 = (n-i)*floor(log(n, 3)+1)
+    case1 = int(sum([ceil(n/t) for t in range(1, n+1)])*(((n*(n+1)+i*(i-1))/2)-i*n))
+    case2 = int(n*(n-1)*(2*n-1)/6)
+
+    best = min(case0, case1, case2)
+    worst = max(case0, case1, case2)
+    
+    if best == case0:
+        BESTS[n].append(0)
+    elif best == case1:
+        BESTS[n].append(1)
+    elif best == case2:
+        BESTS[n].append(2)
+    
+    if worst == case0:
+        WORSTS[n].append(0)
+    elif worst == case1:
+        WORSTS[n].append(1)
+    elif worst == case2:
+        WORSTS[n].append(2)
+
+def set_input_by_index2(n: int, i: int) -> int:
     case0 = 0
     case1 = 0
     case2 = 0

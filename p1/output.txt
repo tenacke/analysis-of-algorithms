@@ -1,51 +1,221 @@
-Input size: 1, Case: Best Case, Elapsed Time: 0.0000093
-Input size: 1, Case: Worst Case, Elapsed Time: 0.0000010
-Input size: 1, Case: Average Case, Elapsed Time: 0.0000009
-Input size: 5, Case: Best Case, Elapsed Time: 0.0000031
-Input size: 5, Case: Worst Case, Elapsed Time: 0.0000281
-Input size: 5, Case: Average Case, Elapsed Time: 0.0000118
-Input size: 10, Case: Best Case, Elapsed Time: 0.0000091
-Input size: 10, Case: Worst Case, Elapsed Time: 0.0003431
-Input size: 10, Case: Average Case, Elapsed Time: 0.0001184
-€Input size: 20, Case: Best Case, Elapsed Time: 0.0000291
-Input size: 20, Case: Worst Case, Elapsed Time: 0.0048862
-Input size: 20, Case: Average Case, Elapsed Time: 0.0017537
-Input size: 30, Case: Best Case, Elapsed Time: 0.0000942
-Input size: 30, Case: Worst Case, Elapsed Time: 0.0253611
-Input size: 30, Case: Average Case, Elapsed Time: 0.0100558
-Input size: 40, Case: Best Case, Elapsed Time: 0.0001709
-Input size: 40, Case: Worst Case, Elapsed Time: 0.0782232
-Input size: 40, Case: Average Case, Elapsed Time: 0.0326318
-Input size: 50, Case: Best Case, Elapsed Time: 0.0002508
-Input size: 50, Case: Worst Case, Elapsed Time: 0.1960173
-Input size: 50, Case: Average Case, Elapsed Time: 0.0797204
-Input size: 60, Case: Best Case, Elapsed Time: 0.0003397
-Input size: 60, Case: Worst Case, Elapsed Time: 0.3970137
-Input size: 60, Case: Average Case, Elapsed Time: 0.1481916
-Input size: 70, Case: Best Case, Elapsed Time: 0.0004718
-Input size: 70, Case: Worst Case, Elapsed Time: 0.7485931
-Input size: 70, Case: Average Case, Elapsed Time: 0.2759008
-Input size: 80, Case: Best Case, Elapsed Time: 0.0005820
-Input size: 80, Case: Worst Case, Elapsed Time: 1.2696068
-Input size: 80, Case: Average Case, Elapsed Time: 0.5063664
-Input size: 90, Case: Best Case, Elapsed Time: 0.0009472
-Input size: 90, Case: Worst Case, Elapsed Time: 2.0384960
-Input size: 90, Case: Average Case, Elapsed Time: 0.8087902
-Input size: 100, Case: Best Case, Elapsed Time: 0.0011539
-Input size: 100, Case: Worst Case, Elapsed Time: 3.1446300
-Input size: 100, Case: Average Case, Elapsed Time: 1.2884994
-Input size: 110, Case: Best Case, Elapsed Time: 0.0014179
-Input size: 110, Case: Worst Case, Elapsed Time: 4.6136451
-Input size: 110, Case: Average Case, Elapsed Time: 1.8014128
-Input size: 120, Case: Best Case, Elapsed Time: 0.0016549
-Input size: 120, Case: Worst Case, Elapsed Time: 6.5458889
-Input size: 120, Case: Average Case, Elapsed Time: 2.8256861
-Input size: 130, Case: Best Case, Elapsed Time: 0.0019479
-Input size: 130, Case: Worst Case, Elapsed Time: 9.1026609
-Input size: 130, Case: Average Case, Elapsed Time: 3.7426544
-Input size: 140, Case: Best Case, Elapsed Time: 0.0022278
-Input size: 140, Case: Worst Case, Elapsed Time: 12.2119360
-Input size: 140, Case: Average Case, Elapsed Time: 4.5465607
-Input size: 150, Case: Best Case, Elapsed Time: 0.0025828
-Input size: 150, Case: Worst Case, Elapsed Time: 16.1626010
-Input size: 150, Case: Average Case, Elapsed Time: 6.5673308
+Case: best Size: 1 Elapsed Time (s): 0.0000000
+Case: worst Size: 1 Elapsed Time (s): 0.0000000  
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: average Size: 1 Elapsed Time (s): 0.0000000
+Case: best Size: 5 Elapsed Time (s): 0.0000000
+Case: worst Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: average Size: 5 Elapsed Time (s): 0.0000000
+Case: best Size: 10 Elapsed Time (s): 0.0000000
+Case: worst Size: 10 Elapsed Time (s): 0.0010002
+Case: average Size: 10 Elapsed Time (s): 0.0009997
+Case: average Size: 10 Elapsed Time (s): 0.0009999
+Case: average Size: 10 Elapsed Time (s): 0.0010002
+Case: average Size: 10 Elapsed Time (s): 0.0010002
+Case: average Size: 10 Elapsed Time (s): 0.0000000
+Case: average Size: 10 Elapsed Time (s): 0.0010002
+Case: average Size: 10 Elapsed Time (s): 0.0009990
+Case: average Size: 10 Elapsed Time (s): 0.0000000
+Case: average Size: 10 Elapsed Time (s): 0.0000000
+Case: average Size: 10 Elapsed Time (s): 0.0009990
+Case: average Size: 10 Elapsed Time (s): 0.0006998
+Case: best Size: 20 Elapsed Time (s): 0.0000000
+Case: worst Size: 20 Elapsed Time (s): 0.0171304
+Case: average Size: 20 Elapsed Time (s): 0.0049999
+Case: average Size: 20 Elapsed Time (s): 0.0049987
+Case: average Size: 20 Elapsed Time (s): 0.0039995
+Case: average Size: 20 Elapsed Time (s): 0.0111210
+Case: average Size: 20 Elapsed Time (s): 0.0029986
+Case: average Size: 20 Elapsed Time (s): 0.0039997
+Case: average Size: 20 Elapsed Time (s): 0.0060005
+Case: average Size: 20 Elapsed Time (s): 0.0049980
+Case: average Size: 20 Elapsed Time (s): 0.0049999
+Case: average Size: 20 Elapsed Time (s): 0.0050023
+Case: average Size: 20 Elapsed Time (s): 0.0053118
+Case: best Size: 30 Elapsed Time (s): 0.0000000
+Case: worst Size: 30 Elapsed Time (s): 0.0697663
+Case: average Size: 30 Elapsed Time (s): 0.0243883
+Case: average Size: 30 Elapsed Time (s): 0.0231438
+Case: average Size: 30 Elapsed Time (s): 0.0172460
+Case: average Size: 30 Elapsed Time (s): 0.0384266
+Case: average Size: 30 Elapsed Time (s): 0.0260022
+Case: average Size: 30 Elapsed Time (s): 0.0314448
+Case: average Size: 30 Elapsed Time (s): 0.0172896
+Case: average Size: 30 Elapsed Time (s): 0.0260785
+Case: average Size: 30 Elapsed Time (s): 0.0241880
+Case: average Size: 30 Elapsed Time (s): 0.0427792
+Case: average Size: 30 Elapsed Time (s): 0.0270987
+Case: best Size: 40 Elapsed Time (s): 0.0010023
+Case: worst Size: 40 Elapsed Time (s): 0.2133131
+Case: average Size: 40 Elapsed Time (s): 0.0613153
+Case: average Size: 40 Elapsed Time (s): 0.0630636
+Case: average Size: 40 Elapsed Time (s): 0.1085312
+Case: average Size: 40 Elapsed Time (s): 0.1013019
+Case: average Size: 40 Elapsed Time (s): 0.0983412
+Case: average Size: 40 Elapsed Time (s): 0.0572240
+Case: average Size: 40 Elapsed Time (s): 0.1099594
+Case: average Size: 40 Elapsed Time (s): 0.0860770
+Case: average Size: 40 Elapsed Time (s): 0.1216218
+Case: average Size: 40 Elapsed Time (s): 0.0817192
+Case: average Size: 40 Elapsed Time (s): 0.0889155
+Case: best Size: 50 Elapsed Time (s): 0.0009811
+Case: worst Size: 50 Elapsed Time (s): 0.5170217
+Case: average Size: 50 Elapsed Time (s): 0.1690080
+Case: average Size: 50 Elapsed Time (s): 0.1567371
+Case: average Size: 50 Elapsed Time (s): 0.2261813
+Case: average Size: 50 Elapsed Time (s): 0.1695426
+Case: average Size: 50 Elapsed Time (s): 0.1701121
+Case: average Size: 50 Elapsed Time (s): 0.2028489
+Case: average Size: 50 Elapsed Time (s): 0.2088444
+Case: average Size: 50 Elapsed Time (s): 0.1704352
+Case: average Size: 50 Elapsed Time (s): 0.1392777
+Case: average Size: 50 Elapsed Time (s): 0.2028577
+Case: average Size: 50 Elapsed Time (s): 0.1815845
+Case: best Size: 60 Elapsed Time (s): 0.0010409
+Case: worst Size: 60 Elapsed Time (s): 1.0653331
+Case: average Size: 60 Elapsed Time (s): 0.3723936
+Case: average Size: 60 Elapsed Time (s): 0.4415500
+Case: average Size: 60 Elapsed Time (s): 0.2333786
+Case: average Size: 60 Elapsed Time (s): 0.3450916
+Case: average Size: 60 Elapsed Time (s): 0.4582155
+Case: average Size: 60 Elapsed Time (s): 0.3867128
+Case: average Size: 60 Elapsed Time (s): 0.4324467
+Case: average Size: 60 Elapsed Time (s): 0.3998516
+Case: average Size: 60 Elapsed Time (s): 0.3837891
+Case: average Size: 60 Elapsed Time (s): 0.2696838
+Case: average Size: 60 Elapsed Time (s): 0.3723113
+Case: best Size: 70 Elapsed Time (s): 0.0029697
+Case: worst Size: 70 Elapsed Time (s): 1.9807565
+Case: average Size: 70 Elapsed Time (s): 0.6041162
+Case: average Size: 70 Elapsed Time (s): 0.7313697
+Case: average Size: 70 Elapsed Time (s): 0.8761241
+Case: average Size: 70 Elapsed Time (s): 0.6884155
+Case: average Size: 70 Elapsed Time (s): 1.0139732
+Case: average Size: 70 Elapsed Time (s): 0.9061151
+Case: average Size: 70 Elapsed Time (s): 0.6837256
+Case: average Size: 70 Elapsed Time (s): 0.4419847
+Case: average Size: 70 Elapsed Time (s): 0.5961373
+Case: average Size: 70 Elapsed Time (s): 0.7311573
+Case: average Size: 70 Elapsed Time (s): 0.7273119
+Case: best Size: 80 Elapsed Time (s): 0.0029993
+Case: worst Size: 80 Elapsed Time (s): 3.4404435
+Case: average Size: 80 Elapsed Time (s): 1.5572627
+Case: average Size: 80 Elapsed Time (s): 1.2879846
+Case: average Size: 80 Elapsed Time (s): 1.5562987
+Case: average Size: 80 Elapsed Time (s): 1.3929398
+Case: average Size: 80 Elapsed Time (s): 1.8387361
+Case: average Size: 80 Elapsed Time (s): 1.2834508
+Case: average Size: 80 Elapsed Time (s): 1.3698506
+Case: average Size: 80 Elapsed Time (s): 1.8714912
+Case: average Size: 80 Elapsed Time (s): 1.3127649
+Case: average Size: 80 Elapsed Time (s): 1.3055019
+Case: average Size: 80 Elapsed Time (s): 1.4776281
+Case: best Size: 90 Elapsed Time (s): 0.0051804
+Case: worst Size: 90 Elapsed Time (s): 5.4620852
+Case: average Size: 90 Elapsed Time (s): 2.3195400
+Case: average Size: 90 Elapsed Time (s): 2.3629184
+Case: average Size: 90 Elapsed Time (s): 1.6116359
+Case: average Size: 90 Elapsed Time (s): 2.0699768
+Case: average Size: 90 Elapsed Time (s): 2.5894880
+Case: average Size: 90 Elapsed Time (s): 2.3646181
+Case: average Size: 90 Elapsed Time (s): 2.2315910
+Case: average Size: 90 Elapsed Time (s): 2.7216637
+Case: average Size: 90 Elapsed Time (s): 2.6906090
+Case: average Size: 90 Elapsed Time (s): 2.4923346
+Case: average Size: 90 Elapsed Time (s): 2.3454376
+Case: best Size: 100 Elapsed Time (s): 0.0062904
+Case: worst Size: 100 Elapsed Time (s): 8.3273656
+Case: average Size: 100 Elapsed Time (s): 3.0907919
+Case: average Size: 100 Elapsed Time (s): 2.9956176
+Case: average Size: 100 Elapsed Time (s): 3.4797709
+Case: average Size: 100 Elapsed Time (s): 3.0997858
+Case: average Size: 100 Elapsed Time (s): 3.3904335
+Case: average Size: 100 Elapsed Time (s): 3.0892353
+Case: average Size: 100 Elapsed Time (s): 3.7042105
+Case: average Size: 100 Elapsed Time (s): 3.0824261
+Case: average Size: 100 Elapsed Time (s): 2.9569759
+Case: average Size: 100 Elapsed Time (s): 2.7093294
+Case: average Size: 100 Elapsed Time (s): 3.1598577
+Case: best Size: 110 Elapsed Time (s): 0.0082355
+Case: worst Size: 110 Elapsed Time (s): 12.2214205
+Case: average Size: 110 Elapsed Time (s): 3.8732908
+Case: average Size: 110 Elapsed Time (s): 4.3505156
+Case: average Size: 110 Elapsed Time (s): 2.7549696
+Case: average Size: 110 Elapsed Time (s): 4.7933366
+Case: average Size: 110 Elapsed Time (s): 4.9705811
+Case: average Size: 110 Elapsed Time (s): 4.2648687
+Case: average Size: 110 Elapsed Time (s): 4.8477290
+Case: average Size: 110 Elapsed Time (s): 5.1558144
+Case: average Size: 110 Elapsed Time (s): 5.0258019
+Case: average Size: 110 Elapsed Time (s): 4.8522196
+Case: average Size: 110 Elapsed Time (s): 4.4889127
+Case: best Size: 120 Elapsed Time (s): 0.0091193
+Case: worst Size: 120 Elapsed Time (s): 17.3453608
+Case: average Size: 120 Elapsed Time (s): 7.1537614
+Case: average Size: 120 Elapsed Time (s): 6.2560105
+Case: average Size: 120 Elapsed Time (s): 7.2653387
+Case: average Size: 120 Elapsed Time (s): 6.5811875
+Case: average Size: 120 Elapsed Time (s): 6.2408986
+Case: average Size: 120 Elapsed Time (s): 6.5860400
+Case: average Size: 120 Elapsed Time (s): 5.4202807
+Case: average Size: 120 Elapsed Time (s): 5.8522127
+Case: average Size: 120 Elapsed Time (s): 8.1497827
+Case: average Size: 120 Elapsed Time (s): 6.0803494
+Case: average Size: 120 Elapsed Time (s): 6.5585862
+Case: best Size: 130 Elapsed Time (s): 0.0113335
+Case: worst Size: 130 Elapsed Time (s): 24.0943346
+Case: average Size: 130 Elapsed Time (s): 9.3935273
+Case: average Size: 130 Elapsed Time (s): 9.6923983
+Case: average Size: 130 Elapsed Time (s): 9.2951982
+Case: average Size: 130 Elapsed Time (s): 8.5738664
+Case: average Size: 130 Elapsed Time (s): 10.5164442
+Case: average Size: 130 Elapsed Time (s): 9.5919516
+Case: average Size: 130 Elapsed Time (s): 10.4839771
+Case: average Size: 130 Elapsed Time (s): 7.8097694
+Case: average Size: 130 Elapsed Time (s): 8.0863826
+Case: average Size: 130 Elapsed Time (s): 10.1391699
+Case: average Size: 130 Elapsed Time (s): 9.3582685
+Case: best Size: 140 Elapsed Time (s): 0.0132203
+Case: worst Size: 140 Elapsed Time (s): 32.5131707
+Case: average Size: 140 Elapsed Time (s): 10.7921050
+Case: average Size: 140 Elapsed Time (s): 16.8936954
+Case: average Size: 140 Elapsed Time (s): 11.2036817
+Case: average Size: 140 Elapsed Time (s): 14.0336995
+Case: average Size: 140 Elapsed Time (s): 11.0700378
+Case: average Size: 140 Elapsed Time (s): 19.0272527
+Case: average Size: 140 Elapsed Time (s): 12.9739466
+Case: average Size: 140 Elapsed Time (s): 12.9381437
+Case: average Size: 140 Elapsed Time (s): 12.4577475
+Case: average Size: 140 Elapsed Time (s): 11.6346016
+Case: average Size: 140 Elapsed Time (s): 13.3024911
+Case: best Size: 150 Elapsed Time (s): 0.0142264
+Case: worst Size: 150 Elapsed Time (s): 42.8564179
+Case: average Size: 150 Elapsed Time (s): 12.7210004
+Case: average Size: 150 Elapsed Time (s): 15.5800786
+Case: average Size: 150 Elapsed Time (s): 16.5843134
+Case: average Size: 150 Elapsed Time (s): 13.3884976
+Case: average Size: 150 Elapsed Time (s): 18.8713617
+Case: average Size: 150 Elapsed Time (s): 13.7908125
+Case: average Size: 150 Elapsed Time (s): 15.7130558
+Case: average Size: 150 Elapsed Time (s): 17.3823056
+Case: average Size: 150 Elapsed Time (s): 17.6927254
+Case: average Size: 150 Elapsed Time (s): 17.2012634
+Case: average Size: 150 Elapsed Time (s): 15.8925415
