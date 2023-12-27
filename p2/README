@@ -1,0 +1,30 @@
+# CMPE300 Project2 
+The project simulates a factory with multiprocess programming. 
+
+mpi.py will run multiple instances of client.py (the number of processes depends
+on the first line of input). The required actions will mostly be executed in client.py.
+Then, the output messages will be sent back to mpi.py where they are finally written
+into the output file.
+
+## Usage
+MPI must be downloaded. Following the link:
+https://www.microsoft.com/en-us/download/details.aspx?id=105289
+is recommended. The following libraries have been used:
+
+```python
+from mpi4py import MPI    
+import sys
+import os
+```
+
+## How to run the program
+Our code can be run with the following command:
+
+```
+mpiexec -n 1  python mpi.py test_input.txt output.txt
+
+```
+As an example, test_input.txt file name is given as an example of input file, 
+output.txt name is given as an example of output file.
+Please change the names of the input and output files in the command as necessary.
+
